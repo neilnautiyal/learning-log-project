@@ -23,6 +23,3 @@ class Entry(models.Model):
     def __str__(self):
         """Return a string representation of the model"""
         return self.text[:50] + "..."
-
-
-
